@@ -1,0 +1,35 @@
+/* Local photo-background proposal. Not published. */
+body{position:relative;isolation:isolate;background:#f5f6ef;}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background-image:linear-gradient(180deg,rgba(245,246,239,.82),rgba(245,246,239,.91) 65%,rgba(245,246,239,.87)),url("assets/forest-photo.jpg");background-size:cover;background-position:center,55% center;background-repeat:no-repeat;}
+body[data-screen="quiz"]::before{opacity:.50;}
+header{position:relative;z-index:1;}
+.tag{background:rgba(255,254,249,.90);border:1px solid rgba(205,216,195,.75);}
+.hero{background:#e8efd9;isolation:isolate;box-shadow:0 10px 28px rgba(40,70,44,.035);border-color:#d3dfc7;grid-template-columns:1fr;}
+.hero>div:first-child{position:relative;z-index:2;}
+.hero h1{max-width:440px;}
+.hero p{max-width:390px;}
+.hero-art{display:block!important;position:absolute;inset:0 0 0 auto;width:49%;max-width:none;padding:0!important;opacity:1!important;pointer-events:none;background-image:linear-gradient(90deg,#e8efd9 0%,rgba(232,239,217,.56) 27%,rgba(232,239,217,0) 60%),url("assets/sky-photo.jpg");background-size:100% 100%,cover;background-position:center,50% 63%;border-radius:0 27px 27px 0;z-index:0;}
+.hero-art::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(232,239,217,.24),rgba(232,239,217,0) 35%);}
+.hero-art svg{display:none!important;}
+.topic-card,.stats,.concept,.record,.lab,.empty{background:#fffef9;}
+.topic-card{box-shadow:0 5px 16px rgba(40,70,44,.025);}
+.note{background:rgba(237,242,227,.97);}
+.question{background:#fffef9;border-color:#d6e0cc;box-shadow:0 10px 32px rgba(40,70,44,.06);}
+.option{background:#fffef9;}
+.quiz-wrap>.back{background:#fffef9;border:1px solid #dfe5d9;border-radius:12px;padding:8px 13px;margin-bottom:16px;}
+.quiz-top{background:rgba(255,254,249,.94);padding:10px 14px;border:1px solid #e2e8da;border-radius:12px;}
+.bottom-nav{background:rgba(255,254,249,.98);}
+@media(max-width:650px){
+ body::before{background-position:center,56% center;}
+ .hero{padding:26px 24px;min-height:306px;}
+ .hero h1{max-width:245px;font-size:30px;line-height:1.35;}
+ .hero p{max-width:225px;}
+ .hero-art{width:59%;right:0;bottom:0;inset:0 0 0 auto;background-image:linear-gradient(90deg,#e8efd9 0%,rgba(232,239,217,.88) 21%,rgba(232,239,217,.18) 53%,rgba(232,239,217,0) 80%),url("assets/sky-photo.jpg");background-position:center,52% 58%;border-radius:0 27px 27px 0;}
+ .hero .eyebrow{font-size:9px;letter-spacing:1.1px;max-width:210px;}
+ .hero .muted{color:#4f6856;}
+ .hero .btn{box-shadow:0 3px 12px rgba(40,70,44,.08);}
+ .question{border-radius:21px;}
+}
+@media(prefers-reduced-transparency:reduce){body::before{opacity:.35;}.hero-art{opacity:.8!important;}}
+.quiz-top{min-height:78px;padding:15px 16px;background-image:linear-gradient(90deg,#fffef9 0%,rgba(255,254,249,.95) 32%,rgba(255,254,249,.38) 68%,rgba(255,254,249,.60) 100%),url("assets/forest-photo.jpg");background-size:100% 100%,cover;background-position:center,50% 54%;background-repeat:no-repeat;}
+.quiz-top>span{padding:3px 8px;border-radius:8px;background:rgba(255,254,249,.94);font-weight:650;}
