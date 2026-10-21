@@ -89,3 +89,26 @@ body[data-screen="quiz"]::before{background:linear-gradient(#e8f1e3eb,#eef2e3f5)
 }
 @media(max-width:360px){.nav-item{font-size:9px;}.hero{padding-left:17px;padding-right:17px;}.hero h1{font-size:31px;}.guide-bubble{left:12px;max-width:127px;font-size:10px;}.hero-companion{right:5%;width:102px;height:159px;}.section>.row h2{font-size:19px;}.topic-card{padding-left:11px;padding-right:11px;}.card-footer{flex-wrap:wrap;}.challenge-banner{gap:11px;}.challenge-banner p{font-size:11px;}.challenge-banner h2{font-size:21px;}.stat span{font-size:9px;}.tag{font-size:8px;}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important;}}
+/* 4학년 2학기 1~4단원 */
+.topic-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+.topic-card h3{font-size:21px;line-height:1.5;word-break:keep-all;max-width:90%;}
+.topic-card .card-footer{gap:10px;flex-wrap:wrap;}
+.math-fraction{display:inline-flex;align-items:center;gap:4px;vertical-align:middle;white-space:nowrap;line-height:1.15;margin:2px 2px;}
+.fraction-stack{display:inline-flex;flex-direction:column;align-items:stretch;text-align:center;min-width:.75em;font-size:.9em;}
+.fraction-stack>span{padding:1px 3px;}.fraction-stack>span:first-child{border-bottom:1.5px solid currentColor;}
+.problem-context .math-fraction,.steps .math-fraction,.hint .math-fraction,.concept .math-fraction{margin:3px 2px;}
+.fraction-entry{border:2px solid #c3cfae;margin:22px 0 4px;padding:18px 16px;background:#f7f9ed;min-width:0;}
+.fraction-entry legend{font-size:13px;font-weight:750;padding:0 7px;color:#49633a;}
+.fraction-fields{display:flex;align-items:center;justify-content:center;gap:17px;}
+.fraction-fields>label{display:flex;flex-direction:column;align-items:center;gap:7px;}
+.fraction-fields>label>span{font-size:10px;max-width:122px;text-align:center;}
+.fraction-fields input{width:88px;max-width:100%;border:2px solid #95a77b;background:#fffef6;box-shadow:inset 2px 2px #e8ecd9;font:inherit;font-size:25px;text-align:center;color:#2d452d;padding:8px 5px;min-height:47px;border-radius:0;}
+.fraction-fields input:disabled{opacity:1;color:#48613c;background:#f0f3e5;}
+.fraction-input-stack{display:flex;flex-direction:column;align-items:center;gap:5px;}.fraction-input-stack input{font-size:23px;}.fraction-input-stack input::placeholder{font-size:14px;color:#778568;}
+.fraction-input-line{width:98px;height:2px;background:#536b44;}.entry-help{font-size:12px;line-height:1.8;color:#64734e;margin:15px 0 0;word-break:keep-all;}
+.answer-error{font-size:13px;color:#985c26;margin:13px 0 0;min-height:0;}.answer-error:empty{display:none;}
+.number-entry input{width:180px;font-size:26px;max-width:72%;}.number-entry input::placeholder{font-size:18px;color:#879473;}
+.type-launches,.type-records{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;}.type-launch{display:flex;flex-direction:column;gap:7px;text-align:center;padding:18px 10px;}.type-launch span{font-size:11px;font-weight:550;}.type-records .record{padding:19px;}.type-records .record p{font-size:12px;}
+.question-preview{font-size:12px;line-height:1.9;color:#667658;margin:15px 0 8px;}.challenge-card h3{margin-top:12px;}.more-questions{display:flex;margin:25px auto 0;}.curriculum-note{margin-top:21px;font-size:12px;}.mode-tabs{flex-wrap:wrap;}.mode-tabs button{white-space:nowrap;}
+@media(max-width:650px){.topic-card h3{font-size:17px;max-width:100%;}.topic-card p{min-height:40px;}.topic-card .card-footer{gap:4px;line-height:1.7;}.type-launches,.type-records{grid-template-columns:1fr;gap:12px;}.type-launch{flex-direction:row;justify-content:space-between;flex-wrap:wrap;text-align:left;padding:16px 15px;}.type-launch strong{font-size:14px;}.type-launch span{font-size:11px;}.fraction-entry{padding:15px 10px;}.fraction-fields{gap:12px;}.fraction-fields input{width:73px;font-size:23px;}.fraction-input-stack input{font-size:21px;}.fraction-input-line{width:82px;}.fraction-fields>label>span{max-width:100px;font-size:9px;}.entry-help{font-size:11px;}.mode-tabs button{font-size:12px;padding:7px 9px;}.challenge-controls .mode-tabs{width:100%;}.challenge-hero h1{font-size:30px;}.question-preview{font-size:12px;}.question .row .muted{font-size:10px;}}
+@media(max-width:360px){.topic-card h3{font-size:15px;}.topic-card .card-footer{font-size:9px;}.fraction-fields{gap:8px;}.fraction-fields input{width:64px;}.fraction-input-line{width:72px;}.fraction-fields>label>span{max-width:88px;}.mode-tabs button{padding:7px 6px;font-size:11px;}}
