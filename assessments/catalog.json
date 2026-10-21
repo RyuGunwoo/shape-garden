@@ -1,0 +1,1469 @@
+{
+  "title": "초등 4학년 2학기 단원평가 연습",
+  "edition": "assessment-v1",
+  "school": "서울명덕초등학교",
+  "ratio": {
+    "basic": 10,
+    "application": 6,
+    "story": 4
+  },
+  "ratioStatus": "학습용 편성 비율. 학교의 실제 출제 비율은 확인되지 않았습니다.",
+  "units": [
+    {
+      "id": "fraction",
+      "name": "분수의 덧셈과 뺄셈",
+      "focus": "동분모 분수 · 받아올림과 받아내림 · 빈칸 · 생활 속 합과 차",
+      "questions": [
+        {
+          "number": 1,
+          "id": "assessment-fraction-01",
+          "type": "basic",
+          "text": "크기가 같은 8칸 중 색칠한 부분을 분수로 나타내세요.",
+          "answer": "3/8",
+          "explanation": "전체를 8칸으로 똑같이 나눈 것 중 3칸이므로 3/8입니다.",
+          "skill": "단위분수와 전체",
+          "choices": null,
+          "table": null,
+          "diagram": {
+            "type": "fractionBar",
+            "den": 8,
+            "filled": 3
+          },
+          "check": {
+            "kind": "fraction",
+            "terms": [
+              "3/8"
+            ]
+          }
+        },
+        {
+          "number": 2,
+          "id": "assessment-fraction-02",
+          "type": "basic",
+          "text": "2/7 + 4/7을 계산하세요.",
+          "answer": "6/7",
+          "explanation": "분모 7은 그대로 두고 분자 2와 4를 더하면 6/7입니다.",
+          "skill": "동분모 분수 계산",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "fraction",
+            "terms": [
+              "2/7",
+              "4/7"
+            ]
+          }
+        },
+        {
+          "number": 3,
+          "id": "assessment-fraction-03",
+          "type": "basic",
+          "text": "5/6 + 4/6을 계산하세요.",
+          "answer": "1 3/6",
+          "explanation": "5/6 + 4/6 = 9/6이고, 6/6을 1로 바꾸면 1 3/6입니다.",
+          "skill": "동분모 분수 계산",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "fraction",
+            "terms": [
+              "5/6",
+              "4/6"
+            ]
+          }
+        },
+        {
+          "number": 4,
+          "id": "assessment-fraction-04",
+          "type": "basic",
+          "text": "7/9 - 2/9를 계산하세요.",
+          "answer": "5/9",
+          "explanation": "분모는 그대로 두고 7 - 2 = 5를 계산합니다.",
+          "skill": "동분모 분수 계산",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "fraction",
+            "terms": [
+              "7/9",
+              "-2/9"
+            ]
+          }
+        },
+        {
+          "number": 5,
+          "id": "assessment-fraction-05",
+          "type": "basic",
+          "text": "1 - 3/8을 계산하세요.",
+          "answer": "5/8",
+          "explanation": "1을 8/8로 바꾸면 8/8 - 3/8 = 5/8입니다.",
+          "skill": "동분모 분수 계산",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "fraction",
+            "terms": [
+              "1",
+              "-3/8"
+            ]
+          }
+        },
+        {
+          "number": 6,
+          "id": "assessment-fraction-06",
+          "type": "basic",
+          "text": "1 2/5 + 2 1/5을 계산하세요.",
+          "answer": "3 3/5",
+          "explanation": "자연수끼리 1 + 2, 분수끼리 2/5 + 1/5을 계산합니다.",
+          "skill": "동분모 분수 계산",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "fraction",
+            "terms": [
+              "7/5",
+              "11/5"
+            ]
+          }
+        },
+        {
+          "number": 7,
+          "id": "assessment-fraction-07",
+          "type": "basic",
+          "text": "2 3/7 + 1 6/7을 계산하세요.",
+          "answer": "4 2/7",
+          "explanation": "자연수의 합 3과 분수의 합 9/7 = 1 2/7을 더합니다.",
+          "skill": "동분모 분수 계산",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "fraction",
+            "terms": [
+              "17/7",
+              "13/7"
+            ]
+          }
+        },
+        {
+          "number": 8,
+          "id": "assessment-fraction-08",
+          "type": "basic",
+          "text": "4 5/6 - 1 2/6을 계산하세요.",
+          "answer": "3 3/6",
+          "explanation": "자연수끼리 4 - 1, 분수끼리 5/6 - 2/6을 계산합니다.",
+          "skill": "동분모 분수 계산",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "fraction",
+            "terms": [
+              "29/6",
+              "-8/6"
+            ]
+          }
+        },
+        {
+          "number": 9,
+          "id": "assessment-fraction-09",
+          "type": "basic",
+          "text": "3 1/4 - 1 3/4을 계산하세요.",
+          "answer": "1 2/4",
+          "explanation": "3 1/4을 2 5/4로 바꾸면 2 5/4 - 1 3/4 = 1 2/4입니다.",
+          "skill": "동분모 분수 계산",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "fraction",
+            "terms": [
+              "13/4",
+              "-7/4"
+            ]
+          }
+        },
+        {
+          "number": 10,
+          "id": "assessment-fraction-10",
+          "type": "basic",
+          "text": "4 - 1 5/8을 계산하세요.",
+          "answer": "2 3/8",
+          "explanation": "4를 3 8/8로 바꾸고 1 5/8을 빼면 2 3/8입니다.",
+          "skill": "동분모 분수 계산",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "fraction",
+            "terms": [
+              "4",
+              "-13/8"
+            ]
+          }
+        },
+        {
+          "number": 11,
+          "id": "assessment-fraction-11",
+          "type": "application",
+          "text": "□ + 3/7 = 1 2/7입니다. □에 알맞은 수를 쓰세요.",
+          "answer": "6/7",
+          "explanation": "1 2/7 - 3/7 = 9/7 - 3/7 = 6/7입니다.",
+          "skill": "역으로 계산",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "fraction",
+            "terms": [
+              "9/7",
+              "-3/7"
+            ]
+          }
+        },
+        {
+          "number": 12,
+          "id": "assessment-fraction-12",
+          "type": "application",
+          "text": "2 1/6 - □ = 5/6입니다. □에 알맞은 수를 쓰세요.",
+          "answer": "1 2/6",
+          "explanation": "빼는 수는 2 1/6 - 5/6 = 13/6 - 5/6 = 8/6 = 1 2/6입니다.",
+          "skill": "빼는 수 찾기",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "fraction",
+            "terms": [
+              "13/6",
+              "-5/6"
+            ]
+          }
+        },
+        {
+          "number": 13,
+          "id": "assessment-fraction-13",
+          "type": "application",
+          "text": "1 3/8 + 2 7/8 - 1 5/8을 계산하세요.",
+          "answer": "2 5/8",
+          "explanation": "먼저 더하면 4 2/8입니다. 4 2/8 - 1 5/8 = 3 10/8 - 1 5/8 = 2 5/8입니다.",
+          "skill": "두 단계 계산",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "fraction",
+            "terms": [
+              "11/8",
+              "23/8",
+              "-13/8"
+            ]
+          }
+        },
+        {
+          "number": 14,
+          "id": "assessment-fraction-14",
+          "type": "application",
+          "text": "계산 결과가 가장 큰 식의 기호를 쓰세요.",
+          "answer": "나",
+          "explanation": "가 = 6/5, 나 = 8/5, 다 = 7/5이므로 나가 가장 큽니다.",
+          "skill": "계산 결과 비교",
+          "choices": [
+            "가. 2/5 + 4/5",
+            "나. 1 1/5 + 2/5",
+            "다. 2 - 3/5"
+          ],
+          "table": null,
+          "diagram": null,
+          "check": null
+        },
+        {
+          "number": 15,
+          "id": "assessment-fraction-15",
+          "type": "application",
+          "text": "□/8 + 3/8이 1보다 커야 합니다. □에 들어갈 수 있는 가장 작은 자연수를 쓰세요.",
+          "answer": "6",
+          "explanation": "1은 8/8입니다. □ + 3이 8보다 커야 하므로 □는 5보다 커야 합니다. 가장 작은 자연수는 6입니다.",
+          "skill": "조건에 맞는 수",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "number",
+            "value": 6
+          }
+        },
+        {
+          "number": 16,
+          "id": "assessment-fraction-16",
+          "type": "application",
+          "text": "민수는 3 1/6 - 1 4/6을 2 3/6으로 잘못 계산했어요. 바르게 계산한 답을 쓰세요.",
+          "answer": "1 3/6",
+          "explanation": "3 1/6을 2 7/6로 바꾸어 빼면 2 7/6 - 1 4/6 = 1 3/6입니다.",
+          "skill": "받아내림 오류 찾기",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "fraction",
+            "terms": [
+              "19/6",
+              "-10/6"
+            ]
+          }
+        },
+        {
+          "number": 17,
+          "id": "assessment-fraction-17",
+          "type": "story",
+          "text": "리본 2 3/5 m에서 4/5 m를 잘라 썼어요. 남은 리본은 몇 m인가요?",
+          "answer": "1 4/5 m",
+          "explanation": "2 3/5 - 4/5 = 1 8/5 - 4/5 = 1 4/5 m입니다.",
+          "skill": "남은 길이",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "fraction",
+            "terms": [
+              "13/5",
+              "-4/5"
+            ]
+          }
+        },
+        {
+          "number": 18,
+          "id": "assessment-fraction-18",
+          "type": "story",
+          "text": "표는 이틀 동안 걸은 거리예요. 이틀 동안 모두 몇 km를 걸었나요?",
+          "answer": "3 5/7 km",
+          "explanation": "1 2/7 + 2 3/7 = 3 5/7 km입니다.",
+          "skill": "표의 합",
+          "choices": null,
+          "table": [
+            [
+              "날",
+              "걸은 거리"
+            ],
+            [
+              "월요일",
+              "1 2/7 km"
+            ],
+            [
+              "화요일",
+              "2 3/7 km"
+            ]
+          ],
+          "diagram": null,
+          "check": {
+            "kind": "fraction",
+            "terms": [
+              "9/7",
+              "17/7"
+            ]
+          }
+        },
+        {
+          "number": 19,
+          "id": "assessment-fraction-19",
+          "type": "story",
+          "text": "물 3 L 중 오전에 5/8 L, 오후에 4/8 L를 마셨어요. 물은 몇 L 남았나요?",
+          "answer": "1 7/8 L",
+          "explanation": "마신 양은 9/8 = 1 1/8 L입니다. 3 - 1 1/8 = 1 7/8 L입니다.",
+          "skill": "두 번 사용한 양",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "fraction",
+            "terms": [
+              "3",
+              "-5/8",
+              "-4/8"
+            ]
+          }
+        },
+        {
+          "number": 20,
+          "id": "assessment-fraction-20",
+          "type": "story",
+          "text": "밀가루에 3/6 kg을 더 넣고, 빵을 만들며 1 1/6 kg을 썼더니 2 4/6 kg이 남았어요. 처음 밀가루는 몇 kg이었나요?",
+          "answer": "3 2/6 kg",
+          "explanation": "남은 양에 사용한 양을 더하면 3 5/6 kg입니다. 여기에 더 넣은 3/6 kg을 빼면 처음 양 3 2/6 kg입니다.",
+          "skill": "처음 양 찾기",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "fraction",
+            "terms": [
+              "16/6",
+              "7/6",
+              "-3/6"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "triangle",
+      "name": "삼각형",
+      "focus": "변과 각으로 분류 · 이등변삼각형 · 정삼각형 · 각의 크기",
+      "questions": [
+        {
+          "number": 1,
+          "id": "assessment-triangle-01",
+          "type": "basic",
+          "text": "그림의 삼각형을 변의 길이에 따라 분류한 이름을 쓰세요.",
+          "answer": "이등변삼각형",
+          "explanation": "길이가 4 cm로 같은 변이 두 개이므로 이등변삼각형입니다.",
+          "skill": "변으로 분류",
+          "choices": null,
+          "table": null,
+          "diagram": {
+            "type": "triangle",
+            "sides": [
+              "4 cm",
+              "4 cm",
+              "6 cm"
+            ]
+          },
+          "check": null
+        },
+        {
+          "number": 2,
+          "id": "assessment-triangle-02",
+          "type": "basic",
+          "text": "세 변의 길이가 모두 5 cm인 삼각형의 이름을 쓰세요.",
+          "answer": "정삼각형",
+          "explanation": "세 변의 길이가 모두 같은 삼각형은 정삼각형입니다.",
+          "skill": "정삼각형의 정의",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": null
+        },
+        {
+          "number": 3,
+          "id": "assessment-triangle-03",
+          "type": "basic",
+          "text": "세 각이 50°, 60°, 70°인 삼각형을 각의 크기에 따라 분류하세요.",
+          "answer": "예각삼각형",
+          "explanation": "세 각이 모두 90°보다 작으므로 예각삼각형입니다.",
+          "skill": "각으로 분류",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": null
+        },
+        {
+          "number": 4,
+          "id": "assessment-triangle-04",
+          "type": "basic",
+          "text": "세 각이 35°, 55°, 90°인 삼각형을 각의 크기에 따라 분류하세요.",
+          "answer": "직각삼각형",
+          "explanation": "한 각이 90°이므로 직각삼각형입니다.",
+          "skill": "직각삼각형",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": null
+        },
+        {
+          "number": 5,
+          "id": "assessment-triangle-05",
+          "type": "basic",
+          "text": "세 각이 25°, 35°, 120°인 삼각형을 각의 크기에 따라 분류하세요.",
+          "answer": "둔각삼각형",
+          "explanation": "120°인 둔각이 하나 있으므로 둔각삼각형입니다.",
+          "skill": "둔각삼각형",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": null
+        },
+        {
+          "number": 6,
+          "id": "assessment-triangle-06",
+          "type": "basic",
+          "text": "삼각형의 두 각이 50°와 60°예요. 나머지 한 각은 몇 도인가요?",
+          "answer": "70°",
+          "explanation": "삼각형의 세 각의 합은 180°이므로 180 - 50 - 60 = 70°입니다.",
+          "skill": "세 각의 합",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "number",
+            "value": 70
+          }
+        },
+        {
+          "number": 7,
+          "id": "assessment-triangle-07",
+          "type": "basic",
+          "text": "길이가 같은 두 변 사이의 각이 40°인 이등변삼각형이에요. 나머지 두 각 중 한 각은 몇 도인가요?",
+          "answer": "70°",
+          "explanation": "나머지 두 각은 같습니다. (180 - 40) ÷ 2 = 70°입니다.",
+          "skill": "이등변삼각형의 밑각",
+          "choices": null,
+          "table": null,
+          "diagram": {
+            "type": "triangle",
+            "apex": "40°",
+            "equal": true
+          },
+          "check": {
+            "kind": "number",
+            "value": 70
+          }
+        },
+        {
+          "number": 8,
+          "id": "assessment-triangle-08",
+          "type": "basic",
+          "text": "이등변삼각형에서 크기가 같은 두 각이 각각 65°예요. 나머지 각은 몇 도인가요?",
+          "answer": "50°",
+          "explanation": "180 - 65 - 65 = 50°입니다.",
+          "skill": "이등변삼각형의 꼭지각",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "number",
+            "value": 50
+          }
+        },
+        {
+          "number": 9,
+          "id": "assessment-triangle-09",
+          "type": "basic",
+          "text": "정삼각형의 한 각은 몇 도인가요?",
+          "answer": "60°",
+          "explanation": "세 각이 같고 합이 180°이므로 180 ÷ 3 = 60°입니다.",
+          "skill": "정삼각형의 각",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "number",
+            "value": 60
+          }
+        },
+        {
+          "number": 10,
+          "id": "assessment-triangle-10",
+          "type": "basic",
+          "text": "세 변의 길이의 합이 18 cm인 정삼각형이에요. 한 변은 몇 cm인가요?",
+          "answer": "6 cm",
+          "explanation": "세 변이 같으므로 18 ÷ 3 = 6 cm입니다.",
+          "skill": "정삼각형의 변",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "number",
+            "value": 6
+          }
+        },
+        {
+          "number": 11,
+          "id": "assessment-triangle-11",
+          "type": "application",
+          "text": "삼각형의 두 각이 25°와 65°예요. 이 삼각형을 각의 크기에 따라 분류하세요.",
+          "answer": "직각삼각형",
+          "explanation": "나머지 한 각은 180 - 25 - 65 = 90°이므로 직각삼각형입니다.",
+          "skill": "각 계산 후 분류",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": null
+        },
+        {
+          "number": 12,
+          "id": "assessment-triangle-12",
+          "type": "application",
+          "text": "이등변삼각형의 한 각이 100°예요. 나머지 두 각 중 한 각은 몇 도인가요?",
+          "answer": "40°",
+          "explanation": "100°인 각이 두 개면 합이 180°를 넘습니다. 따라서 나머지 두 각이 같고, (180 - 100) ÷ 2 = 40°입니다.",
+          "skill": "둔각과 같은 두 각",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "number",
+            "value": 40
+          }
+        },
+        {
+          "number": 13,
+          "id": "assessment-triangle-13",
+          "type": "application",
+          "text": "이등변삼각형이면서 직각삼각형인 도형이에요. 직각이 아닌 한 각은 몇 도인가요?",
+          "answer": "45°",
+          "explanation": "직각을 빼면 90°가 남고, 나머지 두 각이 같으므로 90 ÷ 2 = 45°입니다.",
+          "skill": "두 분류 기준 연결",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "number",
+            "value": 45
+          }
+        },
+        {
+          "number": 14,
+          "id": "assessment-triangle-14",
+          "type": "application",
+          "text": "세 변의 길이가 3 cm, 3 cm, 3 cm인 삼각형이에요. 가장 구체적인 이름을 고르세요.",
+          "answer": "정삼각형",
+          "explanation": "세 변이 모두 같으므로 가장 구체적인 이름은 정삼각형입니다. 이등변삼각형의 성질도 만족합니다.",
+          "skill": "분류의 포함 관계",
+          "choices": [
+            "정삼각형",
+            "세 변의 길이가 모두 다른 삼각형",
+            "직각삼각형"
+          ],
+          "table": null,
+          "diagram": null,
+          "check": null
+        },
+        {
+          "number": 15,
+          "id": "assessment-triangle-15",
+          "type": "application",
+          "text": "삼각형의 두 각이 30°와 70°예요. 이 삼각형에서 가장 큰 각은 몇 도인가요?",
+          "answer": "80°",
+          "explanation": "나머지 각은 180 - 30 - 70 = 80°입니다. 30°, 70°, 80° 중 가장 큰 각은 80°입니다.",
+          "skill": "계산 후 크기 비교",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "number",
+            "value": 80
+          }
+        },
+        {
+          "number": 16,
+          "id": "assessment-triangle-16",
+          "type": "application",
+          "text": "삼각형의 세 각이 될 수 있으면서 이등변삼각형인 것을 고르세요.",
+          "answer": "가",
+          "explanation": "가는 합이 180°이고 같은 각이 두 개입니다. 나는 같은 각이 없고, 다는 합이 190°이므로 알맞지 않습니다.",
+          "skill": "두 조건 확인",
+          "choices": [
+            "가. 50°, 50°, 80°",
+            "나. 40°, 60°, 80°",
+            "다. 60°, 60°, 70°"
+          ],
+          "table": null,
+          "diagram": null,
+          "check": null
+        },
+        {
+          "number": 17,
+          "id": "assessment-triangle-17",
+          "type": "story",
+          "text": "한 변이 7 cm인 정삼각형 모양 깃발의 가장자리에 끈을 붙여요. 겹치는 부분 없이 세 변에 붙이려면 끈이 몇 cm 필요한가요?",
+          "answer": "21 cm",
+          "explanation": "세 변이 같으므로 7 + 7 + 7 = 21 cm입니다.",
+          "skill": "정삼각형 생활 문제",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "number",
+            "value": 21
+          }
+        },
+        {
+          "number": 18,
+          "id": "assessment-triangle-18",
+          "type": "story",
+          "text": "지붕의 단면은 이등변삼각형이에요. 길이가 같은 두 변 사이의 각이 36°예요. 바닥과 빗변이 이루는 두 각 중 한 각은 몇 도인가요?",
+          "answer": "72°",
+          "explanation": "바닥 쪽 두 각은 같으므로 (180 - 36) ÷ 2 = 72°입니다.",
+          "skill": "그림의 각 해석",
+          "choices": null,
+          "table": null,
+          "diagram": {
+            "type": "triangle",
+            "apex": "36°",
+            "equal": true
+          },
+          "check": {
+            "kind": "number",
+            "value": 72
+          }
+        },
+        {
+          "number": 19,
+          "id": "assessment-triangle-19",
+          "type": "story",
+          "text": "삼각형 모양 종이의 두 모서리 각을 재니 45°와 65°였어요. 재지 않은 나머지 한 각은 몇 도인가요?",
+          "answer": "70°",
+          "explanation": "세 각의 합 180°에서 45°와 65°를 빼면 70°입니다.",
+          "skill": "생활 속 각의 합",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "number",
+            "value": 70
+          }
+        },
+        {
+          "number": 20,
+          "id": "assessment-triangle-20",
+          "type": "story",
+          "text": "길이 24 cm인 끈으로 삼각형을 만들었어요. 두 변은 각각 9 cm예요. 남은 한 변은 몇 cm인가요? 끈이 겹치는 길이는 없어요.",
+          "answer": "6 cm",
+          "explanation": "전체 길이 24 cm에서 두 변의 길이 9 cm씩을 빼면 24 - 9 - 9 = 6 cm입니다.",
+          "skill": "전체와 두 변",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "number",
+            "value": 6
+          }
+        }
+      ]
+    },
+    {
+      "id": "decimal",
+      "name": "소수의 덧셈과 뺄셈",
+      "focus": "소수의 자릿값과 크기 · 덧셈과 뺄셈 · 단위 · 자료 해석",
+      "questions": [
+        {
+          "number": 1,
+          "id": "assessment-decimal-01",
+          "type": "basic",
+          "text": "0.01이 36개인 수를 소수로 쓰세요.",
+          "answer": "0.36",
+          "explanation": "0.01이 10개이면 0.1이고, 36개이면 0.36입니다.",
+          "skill": "소수의 자릿값",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "decimal",
+            "terms": [
+              "0.36"
+            ]
+          }
+        },
+        {
+          "number": 2,
+          "id": "assessment-decimal-02",
+          "type": "basic",
+          "text": "0.507에서 소수 셋째 자리의 숫자를 쓰세요.",
+          "answer": "7",
+          "explanation": "소수점 뒤의 숫자는 차례로 5, 0, 7이므로 셋째 자리의 숫자는 7입니다.",
+          "skill": "소수 세 자리 읽기",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "number",
+            "value": 7
+          }
+        },
+        {
+          "number": 3,
+          "id": "assessment-decimal-03",
+          "type": "basic",
+          "text": "0.9 □ 0.85의 □에 >, <, = 중 알맞은 기호를 쓰세요.",
+          "answer": ">",
+          "explanation": "0.9를 0.90으로 나타내면 0.90이 0.85보다 큽니다.",
+          "skill": "소수 크기 비교",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": null
+        },
+        {
+          "number": 4,
+          "id": "assessment-decimal-04",
+          "type": "basic",
+          "text": "1.4 □ 1.40의 □에 >, <, = 중 알맞은 기호를 쓰세요.",
+          "answer": "=",
+          "explanation": "소수의 오른쪽 끝에 0을 붙여도 크기는 같으므로 1.4 = 1.40입니다.",
+          "skill": "소수 끝의 0",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": null
+        },
+        {
+          "number": 5,
+          "id": "assessment-decimal-05",
+          "type": "basic",
+          "text": "0.36 + 0.48을 계산하세요.",
+          "answer": "0.84",
+          "explanation": "소수점을 맞추어 더하면 0.36 + 0.48 = 0.84입니다.",
+          "skill": "소수 두 자리 계산",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "decimal",
+            "terms": [
+              "0.36",
+              "0.48"
+            ]
+          }
+        },
+        {
+          "number": 6,
+          "id": "assessment-decimal-06",
+          "type": "basic",
+          "text": "2.7 + 0.65를 계산하세요.",
+          "answer": "3.35",
+          "explanation": "2.7을 2.70으로 나타내어 2.70 + 0.65 = 3.35를 계산합니다.",
+          "skill": "소수 두 자리 계산",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "decimal",
+            "terms": [
+              "2.7",
+              "0.65"
+            ]
+          }
+        },
+        {
+          "number": 7,
+          "id": "assessment-decimal-07",
+          "type": "basic",
+          "text": "4.85 - 2.30을 계산하세요.",
+          "answer": "2.55",
+          "explanation": "소수점을 맞추어 빼면 4.85 - 2.30 = 2.55입니다.",
+          "skill": "소수 두 자리 계산",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "decimal",
+            "terms": [
+              "4.85",
+              "-2.30"
+            ]
+          }
+        },
+        {
+          "number": 8,
+          "id": "assessment-decimal-08",
+          "type": "basic",
+          "text": "3 - 0.76을 계산하세요.",
+          "answer": "2.24",
+          "explanation": "3을 3.00으로 나타내면 3.00 - 0.76 = 2.24입니다.",
+          "skill": "소수 두 자리 계산",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "decimal",
+            "terms": [
+              "3",
+              "-0.76"
+            ]
+          }
+        },
+        {
+          "number": 9,
+          "id": "assessment-decimal-09",
+          "type": "basic",
+          "text": "1.08 + 0.95를 계산하세요.",
+          "answer": "2.03",
+          "explanation": "소수점끼리 맞추고 받아올림을 하면 1.08 + 0.95 = 2.03입니다.",
+          "skill": "소수 두 자리 계산",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "decimal",
+            "terms": [
+              "1.08",
+              "0.95"
+            ]
+          }
+        },
+        {
+          "number": 10,
+          "id": "assessment-decimal-10",
+          "type": "basic",
+          "text": "5.2 - 1.87을 계산하세요.",
+          "answer": "3.33",
+          "explanation": "5.20 - 1.87을 소수점끼리 맞추어 계산하면 3.33입니다.",
+          "skill": "소수 두 자리 계산",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "decimal",
+            "terms": [
+              "5.2",
+              "-1.87"
+            ]
+          }
+        },
+        {
+          "number": 11,
+          "id": "assessment-decimal-11",
+          "type": "application",
+          "text": "□ + 0.85 = 2.30입니다. □에 알맞은 수를 쓰세요.",
+          "answer": "1.45",
+          "explanation": "2.30 - 0.85 = 1.45입니다.",
+          "skill": "역으로 계산",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "decimal",
+            "terms": [
+              "2.30",
+              "-0.85"
+            ]
+          }
+        },
+        {
+          "number": 12,
+          "id": "assessment-decimal-12",
+          "type": "application",
+          "text": "지수는 2.6 + 0.48을 0.74라고 잘못 계산했어요. 바르게 계산한 답을 쓰세요.",
+          "answer": "3.08",
+          "explanation": "2.6을 2.60으로 나타내어 소수점을 맞추면 2.60 + 0.48 = 3.08입니다.",
+          "skill": "소수점 정렬 오류",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "decimal",
+            "terms": [
+              "2.60",
+              "0.48"
+            ]
+          }
+        },
+        {
+          "number": 13,
+          "id": "assessment-decimal-13",
+          "type": "application",
+          "text": "1.25 + 0.86 - 0.95를 계산하세요.",
+          "answer": "1.16",
+          "explanation": "먼저 1.25 + 0.86 = 2.11, 그다음 2.11 - 0.95 = 1.16입니다.",
+          "skill": "두 단계 계산",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "decimal",
+            "terms": [
+              "1.25",
+              "0.86",
+              "-0.95"
+            ]
+          }
+        },
+        {
+          "number": 14,
+          "id": "assessment-decimal-14",
+          "type": "application",
+          "text": "숫자 카드 2, 5, 8을 한 번씩 모두 사용해 □.□□ 모양의 가장 큰 소수를 만드세요.",
+          "answer": "8.52",
+          "explanation": "가장 큰 자리부터 큰 숫자를 놓아 일의 자리에 8, 소수 첫째 자리에 5, 둘째 자리에 2를 놓습니다.",
+          "skill": "수 카드와 자릿값",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "decimal",
+            "terms": [
+              "8.52"
+            ]
+          }
+        },
+        {
+          "number": 15,
+          "id": "assessment-decimal-15",
+          "type": "application",
+          "text": "리본 1.8 m와 35 cm를 길이가 줄어들지 않게 이어요. 이은 길이는 몇 m인가요? (1 m = 100 cm)",
+          "answer": "2.15 m",
+          "explanation": "35 cm = 0.35 m입니다. 1.80 + 0.35 = 2.15 m입니다.",
+          "skill": "단위 변환",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "decimal",
+            "terms": [
+              "1.8",
+              "0.35"
+            ]
+          }
+        },
+        {
+          "number": 16,
+          "id": "assessment-decimal-16",
+          "type": "application",
+          "text": "표의 두 경로는 각각 두 구간으로 이루어져요. 두 경로 전체 거리의 차는 몇 km인가요?",
+          "answer": "0.06 km",
+          "explanation": "A는 2.15 + 0.68 = 2.83 km, B는 1.85 + 0.92 = 2.77 km입니다. 차는 2.83 - 2.77 = 0.06 km입니다.",
+          "skill": "표의 합과 차",
+          "choices": null,
+          "table": [
+            [
+              "경로",
+              "첫 구간",
+              "둘째 구간"
+            ],
+            [
+              "A",
+              "2.15 km",
+              "0.68 km"
+            ],
+            [
+              "B",
+              "1.85 km",
+              "0.92 km"
+            ]
+          ],
+          "diagram": null,
+          "check": {
+            "kind": "decimal",
+            "terms": [
+              "2.15",
+              "0.68",
+              "-1.85",
+              "-0.92"
+            ]
+          }
+        },
+        {
+          "number": 17,
+          "id": "assessment-decimal-17",
+          "type": "story",
+          "text": "두 주전자의 주스 0.75 L와 0.45 L를 한 통에 모두 모아요. 주스는 모두 몇 L인가요?",
+          "answer": "1.20 L",
+          "explanation": "0.75 + 0.45 = 1.20 L입니다. 1.2 L로 써도 맞습니다.",
+          "skill": "그림에서 양 읽기",
+          "choices": null,
+          "table": null,
+          "diagram": {
+            "type": "jugs",
+            "labels": [
+              "0.75 L",
+              "0.45 L"
+            ]
+          },
+          "check": {
+            "kind": "decimal",
+            "terms": [
+              "0.75",
+              "0.45"
+            ]
+          }
+        },
+        {
+          "number": 18,
+          "id": "assessment-decimal-18",
+          "type": "story",
+          "text": "리본 2.40 m 중 0.85 m를 잘라 썼어요. 남은 길이는 몇 m인가요?",
+          "answer": "1.55 m",
+          "explanation": "2.40 - 0.85 = 1.55 m입니다.",
+          "skill": "남은 양",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "decimal",
+            "terms": [
+              "2.40",
+              "-0.85"
+            ]
+          }
+        },
+        {
+          "number": 19,
+          "id": "assessment-decimal-19",
+          "type": "story",
+          "text": "물통에 1.25 L를 더 붓고 0.80 L를 사용했더니 2.15 L가 남았어요. 처음 물은 몇 L였나요?",
+          "answer": "1.70 L",
+          "explanation": "2.15 + 0.80 = 2.95 L로 되돌린 뒤 더 부은 1.25 L를 빼면 처음 양 1.70 L입니다.",
+          "skill": "처음 양 찾기",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "decimal",
+            "terms": [
+              "2.15",
+              "0.80",
+              "-1.25"
+            ]
+          }
+        },
+        {
+          "number": 20,
+          "id": "assessment-decimal-20",
+          "type": "story",
+          "text": "가방에 표의 물건 중 서로 다른 두 개를 넣어요. 합이 2.00 kg을 넘지 않게 가장 무겁게 넣으면, 제한까지 몇 kg의 여유가 있나요? (가방 무게 제외)",
+          "answer": "0.25 kg",
+          "explanation": "세 조합은 1.60 kg, 1.75 kg, 2.05 kg입니다. 제한 이내의 가장 큰 값은 1.75 kg이므로 2.00 - 1.75 = 0.25 kg의 여유가 있습니다.",
+          "skill": "조건에 맞는 조합",
+          "choices": null,
+          "table": [
+            [
+              "물건",
+              "무게"
+            ],
+            [
+              "책",
+              "0.65 kg"
+            ],
+            [
+              "물병",
+              "0.95 kg"
+            ],
+            [
+              "도구 상자",
+              "1.10 kg"
+            ]
+          ],
+          "diagram": null,
+          "check": {
+            "kind": "decimal",
+            "terms": [
+              "2.00",
+              "-1.75"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "quad",
+      "name": "사각형",
+      "focus": "수직과 평행 · 평행선 사이 거리 · 사각형의 정의와 성질 · 포함 관계",
+      "questions": [
+        {
+          "number": 1,
+          "id": "assessment-quad-01",
+          "type": "basic",
+          "text": "두 직선이 서로 수직일 때 만나는 각은 몇 도인가요?",
+          "answer": "90°",
+          "explanation": "서로 수직인 두 직선은 직각으로 만나므로 90°입니다.",
+          "skill": "수직",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "number",
+            "value": 90
+          }
+        },
+        {
+          "number": 2,
+          "id": "assessment-quad-02",
+          "type": "basic",
+          "text": "마주 보는 한 쌍의 변만 평행한 사각형의 이름을 쓰세요.",
+          "answer": "사다리꼴",
+          "explanation": "마주 보는 한 쌍의 변이 평행한 사각형은 사다리꼴입니다. 이 문제에서는 다른 한 쌍은 평행하지 않습니다.",
+          "skill": "사다리꼴의 정의",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": null
+        },
+        {
+          "number": 3,
+          "id": "assessment-quad-03",
+          "type": "basic",
+          "text": "그림의 두 직선은 평행해요. 두 평행선 사이의 거리는 몇 cm인가요?",
+          "answer": "4 cm",
+          "explanation": "평행선 사이의 거리는 수직으로 이은 선분의 길이입니다. 비스듬한 5 cm가 아니라 4 cm입니다.",
+          "skill": "평행선 사이 거리",
+          "choices": null,
+          "table": null,
+          "diagram": {
+            "type": "parallelDistance",
+            "perpendicular": "4 cm",
+            "slanted": "5 cm"
+          },
+          "check": {
+            "kind": "number",
+            "value": 4
+          }
+        },
+        {
+          "number": 4,
+          "id": "assessment-quad-04",
+          "type": "basic",
+          "text": "마주 보는 두 쌍의 변이 각각 평행한 사각형의 이름을 쓰세요.",
+          "answer": "평행사변형",
+          "explanation": "두 쌍의 마주 보는 변이 각각 평행한 사각형은 평행사변형입니다.",
+          "skill": "평행사변형의 정의",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": null
+        },
+        {
+          "number": 5,
+          "id": "assessment-quad-05",
+          "type": "basic",
+          "text": "네 변의 길이가 모두 같은 사각형을 무엇이라고 하나요?",
+          "answer": "마름모",
+          "explanation": "네 변의 길이가 모두 같은 사각형은 마름모입니다. 정사각형도 마름모의 성질을 만족합니다.",
+          "skill": "마름모의 정의",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": null
+        },
+        {
+          "number": 6,
+          "id": "assessment-quad-06",
+          "type": "basic",
+          "text": "네 각이 모두 직각인 사각형을 무엇이라고 하나요?",
+          "answer": "직사각형",
+          "explanation": "네 각이 모두 직각인 사각형은 직사각형입니다.",
+          "skill": "직사각형의 정의",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": null
+        },
+        {
+          "number": 7,
+          "id": "assessment-quad-07",
+          "type": "basic",
+          "text": "네 변의 길이가 모두 같고 네 각이 모두 직각인 사각형의 가장 구체적인 이름을 쓰세요.",
+          "answer": "정사각형",
+          "explanation": "네 변이 같고 네 각이 모두 직각인 조건을 모두 만족하므로 정사각형입니다.",
+          "skill": "정사각형의 정의",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": null
+        },
+        {
+          "number": 8,
+          "id": "assessment-quad-08",
+          "type": "basic",
+          "text": "그림은 평행사변형 ABCD예요. AB가 8 cm일 때 CD는 몇 cm인가요?",
+          "answer": "8 cm",
+          "explanation": "평행사변형의 마주 보는 변의 길이는 같으므로 CD = AB = 8 cm입니다.",
+          "skill": "마주 보는 변",
+          "choices": null,
+          "table": null,
+          "diagram": {
+            "type": "parallelogram",
+            "side": "8 cm"
+          },
+          "check": {
+            "kind": "number",
+            "value": 8
+          }
+        },
+        {
+          "number": 9,
+          "id": "assessment-quad-09",
+          "type": "basic",
+          "text": "평행사변형 ABCD에서 꼭짓점 A의 각은 65°예요. 마주 보는 꼭짓점 C의 각은 몇 도인가요?",
+          "answer": "65°",
+          "explanation": "평행사변형의 마주 보는 각의 크기는 같으므로 C의 각도 65°입니다.",
+          "skill": "마주 보는 각",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "number",
+            "value": 65
+          }
+        },
+        {
+          "number": 10,
+          "id": "assessment-quad-10",
+          "type": "basic",
+          "text": "한 변의 길이가 6 cm인 마름모의 네 변의 길이의 합은 몇 cm인가요?",
+          "answer": "24 cm",
+          "explanation": "마름모는 네 변이 모두 같으므로 6 + 6 + 6 + 6 = 24 cm입니다.",
+          "skill": "마름모의 변",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "number",
+            "value": 24
+          }
+        },
+        {
+          "number": 11,
+          "id": "assessment-quad-11",
+          "type": "application",
+          "text": "평행사변형 ABCD에서 A의 각이 70°예요. A 바로 옆인 B의 각은 몇 도인가요?",
+          "answer": "110°",
+          "explanation": "평행한 두 변 사이의 이웃한 각은 합이 180°이므로 180 - 70 = 110°입니다.",
+          "skill": "이웃한 두 각",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "number",
+            "value": 110
+          }
+        },
+        {
+          "number": 12,
+          "id": "assessment-quad-12",
+          "type": "application",
+          "text": "항상 옳은 설명의 기호를 쓰세요.",
+          "answer": "나",
+          "explanation": "직사각형의 마주 보는 두 쌍의 변은 각각 평행합니다. 마름모의 각이 항상 직각은 아니며, 모든 직사각형의 네 변이 같지는 않습니다.",
+          "skill": "사각형 포함 관계",
+          "choices": [
+            "가. 모든 마름모는 직사각형이다.",
+            "나. 모든 직사각형은 평행사변형이다.",
+            "다. 모든 직사각형은 정사각형이다."
+          ],
+          "table": null,
+          "diagram": null,
+          "check": null
+        },
+        {
+          "number": 13,
+          "id": "assessment-quad-13",
+          "type": "application",
+          "text": "정사각형에 해당하는 이름을 보기에서 모두 골라 쓰세요.",
+          "answer": "가, 나, 다",
+          "explanation": "정사각형은 두 쌍의 마주 보는 변이 평행하고, 네 변이 같고, 네 각이 직각이므로 세 이름에 모두 해당합니다.",
+          "skill": "여러 정의 동시에 적용",
+          "choices": [
+            "가. 평행사변형",
+            "나. 마름모",
+            "다. 직사각형"
+          ],
+          "table": null,
+          "diagram": null,
+          "check": null
+        },
+        {
+          "number": 14,
+          "id": "assessment-quad-14",
+          "type": "application",
+          "text": "마름모의 한 각이 110°예요. 이 도형이 직사각형이 될 수 있나요? 예 또는 아니요로 답하세요.",
+          "answer": "아니요",
+          "explanation": "직사각형은 네 각이 모두 90°여야 하므로 110°인 각이 있는 마름모는 직사각형이 아닙니다.",
+          "skill": "각 조건 확인",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": null
+        },
+        {
+          "number": 15,
+          "id": "assessment-quad-15",
+          "type": "application",
+          "text": "직선 A와 B는 평행해요. 직선 C가 A와 수직이면 C와 B가 만나는 각은 몇 도인가요?",
+          "answer": "90°",
+          "explanation": "한 평행선에 수직인 직선은 다른 평행선에도 수직이므로 90°입니다.",
+          "skill": "평행과 수직 연결",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "number",
+            "value": 90
+          }
+        },
+        {
+          "number": 16,
+          "id": "assessment-quad-16",
+          "type": "application",
+          "text": "서로 다른 두 직선 A와 B가 같은 평면에서 직선 C에 모두 수직이에요. A와 B의 관계를 쓰세요.",
+          "answer": "평행",
+          "explanation": "같은 직선에 수직인 서로 다른 두 직선은 서로 평행합니다.",
+          "skill": "공통인 수선",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": null
+        },
+        {
+          "number": 17,
+          "id": "assessment-quad-17",
+          "type": "story",
+          "text": "직사각형 모양 카드의 긴 변은 9 cm, 짧은 변은 4 cm예요. 가장자리 전체에 붙일 테이프는 몇 cm 필요한가요? (겹침 없음)",
+          "answer": "26 cm",
+          "explanation": "마주 보는 변이 같으므로 9 + 4 + 9 + 4 = 26 cm입니다.",
+          "skill": "직사각형 생활 문제",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "number",
+            "value": 26
+          }
+        },
+        {
+          "number": 18,
+          "id": "assessment-quad-18",
+          "type": "story",
+          "text": "마름모 모양 화단의 한 변은 7 m예요. 네 변에 울타리를 치면 전체 길이는 몇 m인가요? (출입구와 겹침 없음)",
+          "answer": "28 m",
+          "explanation": "마름모의 네 변이 같으므로 7 + 7 + 7 + 7 = 28 m입니다.",
+          "skill": "마름모 생활 문제",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": {
+            "kind": "number",
+            "value": 28
+          }
+        },
+        {
+          "number": 19,
+          "id": "assessment-quad-19",
+          "type": "story",
+          "text": "창문의 네 모서리는 모두 직각이에요. 가로와 세로가 각각 6 dm일 때, 창문의 가장 구체적인 모양 이름을 쓰세요.",
+          "answer": "정사각형",
+          "explanation": "네 각이 직각인 직사각형이고 가로와 세로도 같으므로 네 변이 모두 같습니다. 따라서 정사각형입니다.",
+          "skill": "두 조건 종합",
+          "choices": null,
+          "table": null,
+          "diagram": null,
+          "check": null
+        },
+        {
+          "number": 20,
+          "id": "assessment-quad-20",
+          "type": "story",
+          "text": "서로 평행한 두 도로 사이를 그림처럼 이었어요. 두 도로 사이의 거리는 몇 m인가요?",
+          "answer": "120 m",
+          "explanation": "두 도로에 수직인 길의 길이가 평행선 사이의 거리이므로 120 m입니다. 비스듬한 길 150 m는 거리가 아닙니다.",
+          "skill": "거리의 의미",
+          "choices": null,
+          "table": null,
+          "diagram": {
+            "type": "parallelDistance",
+            "perpendicular": "120 m",
+            "slanted": "150 m"
+          },
+          "check": {
+            "kind": "number",
+            "value": 120
+          }
+        }
+      ]
+    }
+  ]
+}
